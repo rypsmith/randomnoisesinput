@@ -2,7 +2,7 @@
 
 ## Step 1 - Get set up
 
-Remove the  ``||basic:start||``   and  ``||basic:forever||``  blocks and bring in an ``||input:onButtonPressed||`` block.
+Remove the  ``||basic:start||``   and  ``||basic:forever||``  blocks and bring in an ``||input:onButtonPressed||`` block. It can be set to "A" or "B" for the block that is the trigger.
     
 ```ghost
 input.onButtonPressed(Button.A, function () {
@@ -36,7 +36,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Step 4 - Add some Randomness!
 
-Now let's add some Randomness by putting in a ``||math:random||`` block into the ``||music:play tone||`` block. Change the upper and lower values to 988 and 131. 
+Now let's add some Randomness by putting in a ``||math:random||`` block into the ``||music:play tone||`` block. Change the upper and lower values to 988 and 131. Double check that the beat is set to 1/8.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
